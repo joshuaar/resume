@@ -1,0 +1,129 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage{hyperref}
+
+% moderncv themes
+\moderncvtheme[green]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Josh}
+\familyname{Richer}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+%\address{170 W 74th St, Apt 1212}{NY, NY 10023}    % optional, remove the line if not wanted
+%\mobile{646.926.7840}
+\email{joshamosricher@gmail.com}                      % optional, remove the line if not wanted
+\extrainfo{https://www.linkedin.com/in/joshuaar}
+ % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{"They can kill you, but the legalities of eating you are quite a bit dicier" - David Foster Wallace}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Profile}
+I analyze high dimensional data, quantify what is known and deliver insights into that which is unknown. I develop robust machine learning methods for diagnostics and analysis pipelines for transcriptome profiling (RNA-Seq). A proficient linux user and software developer at work and at home, I am active in open source projects and love learning new things about computing. See github (\link{https://github.com/joshuaar}) or linkedin (\link{https://linkedin.com/in/joshuaar}) for more details.
+
+\section{Experience}
+\cventry{02.2014-Present}{USDA Agricultural Research Service}{Bioinformatics Specialist}{Maricopa, AZ}{}{
+Run a small bioinformatics core facility focusing primarily on \textbf{RNA-Seq} transcriptomics in insects. Significant projects include:
+\newline
+- Antennal transcriptome profiling for olfactory receptors and odorant binding proteins (manuscript under preparation)
+\newline
+- An analysis pipeline available on \textbf{Galaxy} for de-novo transcriptome \textbf{assembly, annotation, searching and visualization}. Used by three participating research groups.
+\newline
+- Support and parallelization of FORTRAN code for radiative transfer atmospheric models.
+}
+
+\cventry{2010-Present}{Biodesign Institute}{Research Associate}{Tempe, AZ}{}{
+Conduct research projects involving high density peptide microarrays. I design experiments, algorithms and software geared toward turning this technology into a universal disease diagnostic called Immunosignaturing (\link{http://en.wikipedia.org/wiki/Immunosignature}).  
+\newline
+- Designed and tested a system for rapidly mapping B-Cell epitopes from human sera and monoclonal antibodies. Includes a novel \textbf{statistical algorithm} for epitope determination from noisy sequence data (Manuscript submitted to Molecular and Cellular Proteomics).
+\newline
+- Designed and built a rapid pattern search engine for biological sequences using \textbf{Apache Lucene and Scala}. It is over 100x faster than naive methods, and useful for identifying peptide motifs in large sequence databases. Includes \textbf{trigram index, pattern compiler, web interface}.
+\newline
+- Wrote non-parametric (bootstrapping) validation procedures for a an immunosignature based Dengue Fever diagnostic. Includes \textbf{feature selection, SVM classification, cross validation, ROC analysis} and visualization. I packaged this into a command line application which became standard protocol in the lab.
+\newline
+- Assorted infrastructure work - SQL schema design, data warehousing, organization and retrieval. \textbf{PostgreSQL Database} and web interface for storing, cleaning and retrieving \textbf{high throughput peptide microarray} data.
+\newline
+}
+
+\cventry{2009-2010}{Entech}{Quality Control Engineer}{White Pigeon, MI}{}{
+Directed quality control for a recycling plant specializing in tire rubber for artifical turf, molding and extrusion.
+\newline
+- Built and supported a database for QC results with \textbf{nightly backups to offsite storage}.
+\newline
+- Wrote procedures creating formatted reports for management.
+\newline
+- Technologies used: PostgreSQL, Python, Excel
+\newline
+- Ensured data and product samples were available and accurate, which was important for occasional disputes over quality.
+}
+
+\cventry{01.2009-07.2009}{University of Notre Dame}{Research Visitor}{Notre Dame, IN}{}{
+Research internship at UND in the lab of Dr. Paul Helquist. Synthesized TSA analogs for treatment of Niemann-Pick disease, co-authoring two papers in peer reviewed journals.
+}
+\cventry{2004-2007}{Helping Hand PC Services and Networking}{Technician}{Saint Charles, IL}{}{
+- IT support and web hosting for small business. I worked here over summers while in high school, where I learned about programming and use of linux to manage web servers. Wrote a simple interface for VNC enabling remote IT support for clients.
+}
+
+\section{Skills}
+\cventry{}{Analytical Skills}{}{Experience in supervised and unsupervised machine learning, RNA-Seq analysis, high dimensional data, multivariate and nonparametric statistics, data visualization in R and Python}{}{}
+\cventry{}{Languages}{}{Python, R, Scala, Java, C++, Javascript}{}{}
+\cventry{}{Software/Libraries}{}{Bioconductor, Lucene, Trinity (sequence assembly), Galaxy, Vim, sed/grep/awk/etc..., many others}{}{}
+
+\section{Education}
+\cventry{2010-Present}{Arizona State University, Ira. A. Fulton School of Engineering}{Ph.D, Biological Design (conc. Bioinformatics)}{}{Tempe, AZ}{}
+\cventry{2005-2009}{Goshen College}{B.A, Chemistry}{}{Goshen, IN}{}
+\cventry{2005-2009}{Goshen College}{B.A, Mol. Biology}{}{Goshen, IN}{}
+\cventry{}{Quantitative Coursework (Selected)}{}{}{}{
+- Nonparametric Statistics
+\newline
+- Linear Regression
+\newline
+- Statistical Computing
+\newline
+- Data Structures and Algorithms
+\newline
+- Theoretical Computer Science
+\newline
+- Operating Systems
+\newline
+- Assembly Language Programming
+}
+
+% PUBLICATIONS
+\nocite{mcp,dengue,usda,euro,notredame}
+\bibliographystyle{unsrt}
+\bibliography{resume}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+% Publications from a BibTeX file
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
