@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.26)  26 AUG 2014 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.26)  27 AUG 2014 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,10 +454,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: moderncvcolorgreen 2013/04/29 v1.5.1 modern curriculum vitae and lette
 r color scheme: green
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/moderncv/moderncvstylecasual.sty
-Package: moderncvstylecasual 2013/04/29 v1.5.1 modern curriculum vitae and lett
-er style scheme: casual
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/moderncv/moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2013/04/29 v1.5.1 modern curriculum vitae and let
 ter style scheme: classic
@@ -765,17 +761,6 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 68.
 \cvitemwithcommentmainbox=\box52
 \cvitemwithcommentmainlength=\skip76
 \cvitemwithcommentcommentlength=\skip77
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
-Package: moderncviconsawesome 2013/04/29 v1.5.1 modern curriculum vitae and let
-ter icons: awesome
-WARNING: to use the awesome icon set, please use XeTeX or LuaTeX to compile you
-r document; switching to the marvosym icon set.
-)
-\footerbox=\box53
-\footertempbox=\box54
-\footerwidth=\skip78
-\footerboxwidth=\skip79
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks28
@@ -1047,7 +1032,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count152
 \scratchdimen=\dimen196
-\scratchbox=\box55
+\scratchbox=\box53
 \nofMPsegments=\count153
 \nofMParguments=\count154
 \everyMPshowfont=\toks31
@@ -1086,7 +1071,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box56
+\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1140,34 +1125,46 @@ LaTeX Info: Redefining \nameref on input line 41.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\makecvtitlepicturebox=\box57
-\makecvtitlepicturewidth=\skip80
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 56.
+\makecvtitledetailsbox=\box55
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 56.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 43.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 43.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 56.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 43.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 43.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 43.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 43.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+\makecvtitlepicturebox=\box56
+\makecvtitledetailswidth=\skip78
+\makecvtitlepicturewidth=\skip79
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+
+ []
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1179,39 +1176,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 
  []
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 89.
+[1
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 89.
- [1
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resu
-me.bbl) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
-
-(./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./resume.bbl) [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+ (./resume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 09516127A1262AC16AA1B9B907EA8C21;219.
+(rerunfilecheck)             Checksum: 20D94003F3827C314D3652034ACB5CC2;261.
  ) 
 Here is how much of TeX's memory you used:
- 23561 strings out of 493108
- 452333 string characters out of 6134853
- 536970 words of memory out of 5000000
- 26603 multiletter control sequences out of 15000+600000
- 44145 words of font info for 57 fonts, out of 8000000 for 9000
+ 23566 strings out of 493108
+ 451994 string characters out of 6134853
+ 536464 words of memory out of 5000000
+ 26598 multiletter control sequences out of 15000+600000
+ 58945 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,12n,60p,10375b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
+ 69i,12n,58p,10375b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
@@ -1219,10 +1205,10 @@ ype1/public/lm/lmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (2 pages, 175351 bytes).
+Output written on resume.pdf (2 pages, 176914 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 13365 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 18493 words of extra memory for PDF output out of 20736 (max. 10000000)
 
