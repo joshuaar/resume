@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: resume.aux
+The style file: unsrt.bst
+Database file #1: resume.bib
+Warning--empty journal in dengue
+Warning--empty year in dengue
+Warning--empty journal in usda
+Warning--empty year in usda
+You've used 5 entries,
+            1791 wiz_defined-function locations,
+            476 strings with 4763 characters,
+and the built_in function-call counts, 1234 in all, are:
+= -- 87
+> -- 91
+< -- 0
++ -- 32
+- -- 27
+* -- 111
+:= -- 220
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 43
+empty$ -- 100
+format.name$ -- 27
+if$ -- 251
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 64
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 9
+width$ -- 6
+write$ -- 53
+(There were 4 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 AUG 2015 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 AUG 2015 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -445,9 +445,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip65
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/moderncv/moderncvcolorgreen.sty
-Package: moderncvcolorgreen 2013/04/29 v1.5.1 modern curriculum vitae and lette
-r color scheme: green
+(/usr/local/texlive/2015/texmf-dist/tex/latex/moderncv/moderncvcolorgrey.sty
+Package: moderncvcolorgrey 2013/04/29 v1.5.1 modern curriculum vitae and letter
+ color scheme: grey
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/moderncv/moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2013/04/29 v1.5.1 modern curriculum vitae and let
@@ -1190,11 +1190,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 462947F4DB03FF8A3932BB57F710A216;261.
  ) 
 Here is how much of TeX's memory you used:
- 23692 strings out of 493089
- 456790 string characters out of 6134842
- 539455 words of memory out of 5000000
+ 23690 strings out of 493089
+ 456764 string characters out of 6134842
+ 539458 words of memory out of 5000000
  26746 multiletter control sequences out of 15000+600000
- 59028 words of font info for 75 fonts, out of 8000000 for 9000
+ 58945 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,58p,10379b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -1206,7 +1206,7 @@ ype1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (3 pages, 177585 bytes).
+Output written on resume.pdf (3 pages, 177678 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
