@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2015 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 SEP 2015 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,7 +1167,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 48.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 
  []
 
@@ -1177,39 +1177,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--72
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+
+ []
+
 (./resume.bbl)
 
-./resume.tex:131: LaTeX Error: There's no line here to end.
+./resume.tex:135: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \newline
+l.135 \newline
               
 ? 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 462947F4DB03FF8A3932BB57F710A216;261.
  ) 
 Here is how much of TeX's memory you used:
- 23697 strings out of 493089
- 456842 string characters out of 6134842
+ 23691 strings out of 493089
+ 456780 string characters out of 6134842
  539458 words of memory out of 5000000
  26746 multiletter control sequences out of 15000+600000
- 59277 words of font info for 78 fonts, out of 8000000 for 9000
+ 59028 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,58p,10379b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -1221,7 +1230,7 @@ ype1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (2 pages, 174668 bytes).
+Output written on resume.pdf (2 pages, 175769 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
